@@ -11,7 +11,7 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- ? Navbar with links -->
+    <!-- Navbar with links to Home, About, Menu, and Contact pages. -->
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">BurgerPedia</a>
@@ -24,7 +24,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <!--  Navbar burger icon  -->
+          <!-- Navbar burger icon to toggle navigation -->
           <span class="navbar-toggler-icon">
             <img src="icons/list.svg" alt="" width="30"
           /></span>
@@ -41,27 +41,29 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#Menu">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!--  Container with two rows -->
-    <div class="container">
+    <!-- This container contains the Home page. -->
+    <div class="container" id="Home">
+      <!-- This row contains two columns: a heading and a button on the left, and an image of a burger on the right. -->
       <div class="row">
         <div
           class="col-xl-6 col-lg-6 col-md-6 col-sm-6 bg-danger text-center text-sm-start"
         >
-          <p class="text-uppercase">Full Website</p>
+          <p>Full Website</p>
           <p>
-            Food The <br />
+            Food The
+            <br />
             Most Precious Things
           </p>
 
@@ -70,19 +72,22 @@
             <button>Todays Menu</button>
           </div>
         </div>
-        <!--  img of burger goes here -->
+
+        <!-- Image of a burger goes here. -->
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 bg-dark">
           <p>IMG</p>
         </div>
       </div>
     </div>
     <!--  About Section -->
-    <div class="container">
+    <!-- This container contains the About Us section. -->
+    <div class="container" id="About">
+      <!-- This row contains two columns: an image of a burger on the left and the About Us text on the right. -->
       <div class="row">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-          <!--  img of burger goes here -->
           <p>IMG</p>
         </div>
+
         <div
           class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-sm-6 text-center text-sm-start"
         >
@@ -93,36 +98,97 @@
             majority have suffered alteration in form, by injected humor
             randomized words which don't look even slightly believable.
           </p>
-          <!-- button for About  -->
           <button>Learn More</button>
         </div>
       </div>
     </div>
-    <div class="container">
+
+    <!-- This container contains the food menu. -->
+    <div class="container" id="Menu">
+      <!-- This row contains the header of the menu. -->
       <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
           <p class="text-center">Food menu</p>
           <p class="text-center">Fresh taste and great prices</p>
         </div>
-        <!-- image 1 goes here -->
+      </div>
+
+      <!-- These three columns contain the food items in the menu. -->
+      <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bg-danger text-center">
           <p>Chicken Burger</p>
           <p>Tasty Food</p>
           <p>$11.00</p>
         </div>
-        <!-- image 2 goes here -->
 
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bg-primary text-center">
           <p>Chicken Fry Pack</p>
           <p>Tasty Food</p>
           <p>$21.00</p>
         </div>
-        <!-- image 3 goes here -->
 
         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bg-danger text-center">
           <p>Special Beef Burger</p>
           <p>Tasty Food</p>
           <p>$11.00</p>
+        </div>
+      </div>
+    </div>
+    <!-- Container for the services menu. -->
+    <div class="container" id="services">
+      <!-- Row for the menu header. -->
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
+          <p>Services</p>
+          <p>We provide best quality food</p>
+        </div>
+      </div>
+
+      <!-- Row for the menu items. -->
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bg-danger text-center">
+          <img src="" alt="" />
+          <p>Order</p>
+          <p>
+            There are many variations of passages of Lorem Ipsum available but
+            majority have suffered alteration injected humor
+          </p>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bg-primary text-center">
+          <img src="" alt="" />
+          <p>Shipping</p>
+          <p>
+            There are many variations of passages of Lorem Ipsum available but
+            majority have suffered alteration injected humor
+          </p>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 bg-danger text-center">
+          <img src="" alt="" />
+          <p>Delivered</p>
+          <p>
+            There are many variations of passages of Lorem Ipsum available but
+            majority have suffered alteration injected humor
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Container for the call to action. -->
+    <div class="container">
+      <!-- Row for the call to action text. -->
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-center">
+          <p>We make quality food Everyday</p>
+        </div>
+      </div>
+
+      <!-- Row for the call to action button. -->
+      <div class="row">
+        <div
+          class="col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex justify-content-center"
+        >
+          <button>Let's Chat</button>
         </div>
       </div>
     </div>
