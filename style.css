@@ -1,3 +1,5 @@
+@import url(font-family: 'Croissant One', cursive;);
+
 .navbar{
     background: pink;
     height: 80px;
@@ -21,14 +23,23 @@ header{
     font-weight: bold;
     margin-left: 70px;
     font-weight: 900;
+    font-family: Croissant One;
    
 }
 
 *{
     scroll-behavior: auto;
+   
 }
 
 #Home{
     background-color: aqua;
-    margin-top:100px;
+    margin-top:80px;
+    
+}
+
+h1{
+    color: red;
+    font-weight: 900;
+    font-weight: bold;
 }
