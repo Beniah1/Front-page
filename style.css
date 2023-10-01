@@ -131,7 +131,7 @@ button:after {
     margin-top: 120px;
     padding-top: 180px;
     height: 743px;
-    border: 2px solid white;
+    border: 10px dotted white;
     color: aliceblue;
 }
 
@@ -169,8 +169,35 @@ button:after {
 }
 
 #About .img2{
-    background-image: url(https://raw.githack.com/Lepros311/YT-Website-1/main/img/home.png);
+    background-image: url(k.png);
     background-repeat: no-repeat;
     height: 600px;
-    margin-top: -110px;
+    margin-top: -40px;
+    margin-left: 20px;
+    
+}
+
+#About .text-center{
+    /* background-color: #00ff00; */
+    width: 600px;
+   
+}
+
+#About h1{
+    font-size: 90px;
+    margin-top: 20px;
+    color: red;
+    text-transform: uppercase;
+    font-family: Black Ops One;
+}
+
+#About h2{
+    font-family:  Croissant One;
+    font-size: 40px;
+    color: white;
+   
+}
+
+#About button{
+    margin-top: 30px;
 }
