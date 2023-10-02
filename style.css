@@ -203,7 +203,7 @@ button:after {
 }
 
 #Menu{
-    background-color: indianred;
+    background-color: rgba(19, 19, 19, 0.905);
     margin-top: 60px;
     padding-top: 80px;
     height:800px ;
@@ -225,6 +225,7 @@ button:after {
 
 #Menu .two{
     margin-top:80px ;
+    padding-bottom: 10px;
 }
 
 .cards {
@@ -539,7 +540,7 @@ button:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotateZ(-5deg);
+    transform: rotateZ(0deg);
   }
   
   .content .img {
@@ -548,7 +549,7 @@ button:after {
   }
   
   .cardy:hover::before, .card:hover .content {
-    transform: rotateZ(0deg);
+    transform: rotateZ(60deg);
   }
   
   .cardy:active::before, .card:active .content {
@@ -611,7 +612,7 @@ button:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: rotateZ(-5deg);
+    transform: rotateZ(0deg);
   }
   
   .content .img {
@@ -698,3 +699,58 @@ button:after {
 .carda:active::before, .card:active .content {
   box-shadow: none;
 }
+
+.buttonn {
+    background-image: linear-gradient(to right bottom, #f7f7f7, #f94118, #ff5956, #ffb900, #f4a629);
+    border: none;
+    font-size: 1em;
+    border-radius: 1.5em;
+    padding: 4px;
+    transition: border-top-left-radius 0.2s ease-in, 
+    border-top-right-radius 0.2s ease-in 0.15s, 
+    border-bottom-right-radius 0.2s ease-in 0.3s,
+    border-bottom-left-radius 0.2s ease-in 0.45s, 
+    padding 0.2s ease-in;
+    position: relative;
+    width: 350px;
+    margin-top: 150px;
+  }
+  
+  .buttonn__int {
+    background-color: #000000;
+    color: white;
+    border-radius: 1.3em;
+    padding: 10px 40px;
+    transition: all 0.2s ease-in,
+    border-top-left-radius 0.2s ease-in, 
+    border-top-right-radius 0.2s ease-in 0.15s, 
+    border-bottom-right-radius 0.2s ease-in 0.3s,
+    border-bottom-left-radius 0.2s ease-in 0.45s,
+    padding 0.2s ease-in;
+    font-weight: 600;
+    z-index: -1;
+    box-shadow: -15px -10px 30px -5px rgba(255, 255, 255, 0.8),
+      15px -10px 30px -5px rgba(218, 55, 55, 0.8),
+      15px 10px 30px -5px rgba(233, 171, 37, 0.8),
+      -15px 10px 30px -5px rgb(111, 223, 30);
+  }
+  
+  .buttonn:active .button__int {
+    padding: 10px 30px;
+  }
+  
+  .buttonn:hover {
+    border-radius: 0;
+  }
+  
+  .buttonn:hover .button__int {
+    border-radius: 0;
+  }
+  
+  .buttonn:hover .button__int {
+    box-shadow: -25px -10px 30px -5px rgba(225, 0, 255, 0.7),
+      25px -10px 30px -5px rgba(255, 0, 212, 0.7),
+      25px 10px 30px -5px rgba(255, 174, 0, 0.7),
+      -25px 10px 30px -5px rgba(255, 230, 0, 0.7);
+  }
+  
