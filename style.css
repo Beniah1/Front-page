@@ -206,7 +206,7 @@ button:after {
     background-color: rgba(19, 19, 19, 0.905);
     margin-top: 60px;
     padding-top: 80px;
-    height:800px ;
+    height:770px ;
 }
 
 #Menu h2{
@@ -764,13 +764,14 @@ button:after {
   .card1 {
     width: 190px;
     height: 254px;
-    background: #FAF1F6;
+    background: #ffffff;
     padding: 2rem 1.5rem;
     transition: box-shadow .3s ease, transform .2s ease;
     display: flex;
     flex-direction: column;
     position: absolute;
    margin-right: -1110px;
+   margin-top: 50px;
   }
   
   .card-info {
@@ -792,7 +793,7 @@ button:after {
     padding-top: 5px;
     height: 80px;
     width: 100px;
-    fill: #515F65;
+    fill: rgb(207, 94, 94);
   }
   
   .card-social {
@@ -805,7 +806,7 @@ button:after {
   
   .card-social-icon {
     list-style: none;
-    color: #515F65;
+    color: #b41414;
     font-size: 0.5em;
     display: flex;
     flex-direction: column;
@@ -816,7 +817,7 @@ button:after {
     display: block;
     height: 20px;
     width: 20px;
-    fill: #515F65;
+    fill: #0bb6ff;
     cursor: pointer;
   }
   
@@ -834,30 +835,33 @@ button:after {
   }
   
   .address-icon {
-    fill: #515F65;
-    height: 150px;
+    fill: #00b3ff;
+    height: 160px;
     width: 100px;
     list-style: none;
     justify-content: space-around;
+    margin-top: -11px;
   }
   
   .address-title {
     color: #333;
-    font-size: 1.0em;
+    font-size: 1.5em;
     font-weight: 600;
     list-style: none;
+    margin-top: -52px;
   }
   
   .address {
-    color: #859ba8;
+    color: #d56262;
     font-size: 0.8em;
     list-style: none;
     padding-left: 20px;
-    ;
+   
+    
   }
   
   .contact-title {
-    color: #333;
+    color: #05c9ff;
     font-size: 1.5em;
     font-weight: 600;
     margin-top: 45%;
@@ -879,7 +883,7 @@ button:after {
     display: block;
     height: 18px;
     width: 18px;
-    fill: #515F65;
+    fill: #b93838;
     padding-right: 5px;
   }
   
@@ -918,3 +922,24 @@ button:after {
   .main:hover #c3 {
     transform: translateX(-200px);
   }
+
+
+  #services{
+    padding-top: 80px;
+    margin-bottom: 40px;
+  }
+  #services h2{
+    color: red;
+    text-transform: uppercase;
+    font-family: Black Ops One;
+   
+}
+
+#services h1{
+    font-family:  Croissant One;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+   
+}
+  
